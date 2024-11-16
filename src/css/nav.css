@@ -1,0 +1,26 @@
+.nav-bg{
+    background-color: rgb(82, 164, 183);
+}
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.navegacion-principal a {
+ display: block;
+    color: white;
+ text-align: center;
+ text-decoration: none;
+ font-size: 2rem;
+ font-weight: 700;
+ padding: 1rem;
+}
+.navegacion-principal a:hover{
+    background-color: rgb(221, 221, 20);
+    color: var(--oscuro);
+}
