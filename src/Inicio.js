@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './components/Nav';
 import Imagen from './components/Imagen';
 import Servicios from './components/Servicios';
+import Contacto from './components/Contacto';
 
 const Inicio = () => {
   return (
@@ -9,6 +10,7 @@ const Inicio = () => {
     <Nav/>
     <Imagen/>
     <Servicios/>
+    <Contacto/>
     </div>
   );
 };
